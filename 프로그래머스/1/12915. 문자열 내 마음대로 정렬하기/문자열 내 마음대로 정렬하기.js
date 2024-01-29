@@ -1,5 +1,4 @@
 function solution(strings, n) {
-    var answer = [];
     strings.sort((a,b) => {
         return a.localeCompare(b)
     })
