@@ -7,11 +7,7 @@ function solution(name, yearning, photo) {
             if(idx > -1){
                 sum += yearning[idx]    
             }
-            // console.log(photo[i][j])
-            // console.log(name.findIndex((el) => el === photo[i][j]))
-            // if(name.findIndex(photo[i][j]))
         }
-        console.log('====')
         answer.push(sum)
     }
     return answer;
